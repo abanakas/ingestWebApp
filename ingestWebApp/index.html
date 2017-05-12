@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="Content/sitecss.css" />
     <link rel="stylesheet" href="Content/bootstrap.min.css" />
     <link rel="stylesheet" href="Content/bootstrap-theme.min.css" />
-    <script src="Scripts/jquery-1.10.2.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
+    <script data-main="Scripts/rabbit.js" src="Scripts/require.js" type="text/javascript"></script>
+    <script src="Scripts/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="Scripts/bootstrap.min.js" type="text/javascript"></script>    
     <script src="Scripts/ddmenu.js" type="text/javascript"></script>
     <script src="Scripts/setStartIngestVars.js"></script>
 </head>
@@ -17,8 +18,7 @@
 <body>
     <a id="ddmenuLink" href="menuBar.html"></a>
     <p>Ingest</p>
-    <div class="col-sm-10">
-        
+    <div class="col-sm-10">        
         <form class="form-horizontal" method="get" action="start.html">
             <div class="input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-font"></i></span>
@@ -35,6 +35,12 @@
             </div>
         </form>
     </div>
+    <script>
+        stats.overview(function (err, res, data) {
+            if (err) { throw err; }
+            console.log('data: ', data);
+        });
+    </script>
 </body>
 
 </html>

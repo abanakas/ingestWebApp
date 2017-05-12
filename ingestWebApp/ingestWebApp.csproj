@@ -43,40 +43,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ClassWrapper, Version=1.0.7.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ClassWrapper.2.1.0\lib\net45\ClassWrapper.dll</HintPath>
-    </Reference>
-    <Reference Include="ConcurrencyHelpers, Version=2.0.8.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ConcurrencyHelpers.3.3.6\lib\net45\ConcurrencyHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="CoroutineCache, Version=2.0.8.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\CoroutineCache.3.3.6\lib\net45\CoroutineCache.dll</HintPath>
-    </Reference>
-    <Reference Include="ExpressionBuilder, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ExpressionBuilder.2.1.0\lib\net45\ExpressionBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="GenericHelpers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GenericHelpers.1.0.2\lib\net45\GenericHelpers.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.4\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="NetworkHelpers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetworkHelpers.4.0.2\lib\net45\NetworkHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Node.Cs.Authorization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Node.Cs.Lib.1.2.2\lib\net45\Node.Cs.Authorization.dll</HintPath>
-    </Reference>
-    <Reference Include="Node.Cs.Commons, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Node.Cs.Commons.1.2.2\lib\net45\Node.Cs.Commons.dll</HintPath>
-    </Reference>
-    <Reference Include="Node.Cs.Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Node.Cs.Lib.1.2.2\lib\net45\Node.Cs.Lib.dll</HintPath>
-    </Reference>
-    <Reference Include="Node.Cs.Routing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Node.Cs.Lib.1.2.2\lib\net45\Node.Cs.Routing.dll</HintPath>
-    </Reference>
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -94,9 +64,6 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="UniversalTypeConverter, Version=1.0.2.1, Culture=neutral, PublicKeyToken=2f110abc75e7903d, processorArchitecture=MSIL">
-      <HintPath>..\packages\UniversalTypeConverter.1.0.2\lib\net40\UniversalTypeConverter.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -113,16 +80,23 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\getStartIngestVars.js" />
+    <None Include=".bin\node.cmd" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\r.js" />
+    <Content Include="Scripts\rabbit.js" />
+    <Content Include="Scripts\require.js" />
     <Content Include="Scripts\setStartIngestVars.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="packages.config" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
